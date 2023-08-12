@@ -8,10 +8,12 @@
   </head>
   <body class="body">
     <header class="header">
-      <div class="header__container">
+      <div class="header__container--left">
         <button type="button" class="header__button header__button--burger"></button>
         <div class="header__logo"></div>
         <div class="header__divider"></div>
+      </div>
+      <div class="header__container--right">
         <button type="button" class="header__button header__button--call"></button>
         <button type="button" class="header__button header__button--chat"></button>
         <button type="button" class="header__button header__button--profile"></button>
@@ -27,12 +29,15 @@
       </div>
     </header>
     <main class="main">
+      <div class="main-container">
         <div class="main__title-container">
           <div class="main__highlight"></div>
           <h1 class="main__title">Услуги и сервисы</h1>
-
+        </div>
+          
           <!-- Для версии 1120px+ -->
         
+        <div class="main__buttons-container">  
           <label class="main__title--button main__title--button--1">
             Оставить заявку
             <button type="button" class="header__button header__button--repair"></button>
@@ -41,10 +46,11 @@
             Статус ремонта
             <button type="button" class="header__button header__button--check-status"></button>
           </label>
-
+        </div>
+       </div>  
+      
           <!--                    -->
-
-        </div>  
+  
         <nav class="navigation">
             <ul class="navigation__links">
                 <li class="navigation__link-container"><a class="navigation__link" href="#">Ремонтируемые бренды</a></li>
